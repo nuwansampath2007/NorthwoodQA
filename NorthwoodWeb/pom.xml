@@ -5,16 +5,24 @@
   <version>0.0.1-SNAPSHOT</version>
   
   
-  <dependencies>
+  <dependencies>  
   
   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-java</artifactId>
+	    <version>4.28.0</version>
+	</dependency>  
+	
+	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-java</artifactId>
-    <version>4.28.0</version>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.10.2</version>
+    <scope>test</scope>
 </dependency>
 
-  
+	
   </dependencies>
   
   
